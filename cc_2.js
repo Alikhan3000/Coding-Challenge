@@ -33,3 +33,27 @@ console.log(employee)
 
 //task 4 
 
+let customers = [{  //array of 3 objects with 3 properties
+
+name: "Evan Smith",
+email: "evansmith@gmail.com",
+purchaseAmount: 45},
+
+{name: "Conan Barbarian",
+email: "conanb@gmail.com",
+purchaseAmount: 70},
+
+{name: "Mary Baker",
+email: "bakermary@gmail.com",
+purchaseAmount: 30},
+
+];
+
+customers.push({    //adding a new object into an array
+    name: "Henry Ford",
+    email: "Ford@gmail.com",
+    purchaseAmount: 77
+
+});
+
+console.log(customers)
