@@ -57,3 +57,21 @@ customers.push({    //adding a new object into an array
 });
 
 console.log(customers)
+
+
+//task 5 
+
+let order = {       //object with 3 properties 
+
+    orderId: 78954,
+    customerName: "John Cotton",
+    amount: 1000,
+    calculateTax: function() {      //function that returns amount + 10% tax
+        return this.amount * 0.1;
+    }
+    };
+    
+    
+    console.log(order);
+    console.log(order.calculateTax());
+
